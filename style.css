@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 5em;
+    font-size: 16px;
+}
+
+.separator {
+    margin-bottom: 2em;
+    width: 80%;
+    border: 3px solid #000;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-weight: normal;
+    color: #21b621;
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-weight: normal;
+    color: #38add4;
+    font-size: 1rem;
+}
+
+body > section {
+    margin-bottom: 2em;
+}
+
+body > section:last-child {
+    margin-bottom: 0;
+}
+
+.education, .experience {
+    margin-bottom: 1em;
+}
+
+.education ul, .experience ul {
+    padding-left: 1.2em;
+    margin: .5em 0;
+}
+
+#across-internet ul{
+    display: flex;
+    gap: 1em;
+}
+
+#across-internet ul li {
+    list-style: none;
+}
+
+#across-internet ul li img{
+    width: 32px;
+    height: 32px;
+}
